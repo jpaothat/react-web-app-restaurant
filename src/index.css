@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: auto;
+  height: 100vh;
+}
+
+/* wrappers */
+.app_wrapper {
+  max-width: 1280px;
+  height: 100vh;
+  margin: auto;
+}
+
+.header_wrapper {
+  display: flex;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.main_wrapper {
+  display: flex;
+  background-color: #495E57;
+  padding: 1em;
+}
+
+.specials_wrapper {
+  display: flex;
+  padding: 1em;
+}
+
+.testimonials_wrapper {
+  display: flex;
+  background-color: #EDEFEE;
+  padding: 1em;
+}
+
+.footer_wrapper {
+  display: flex;
+  padding: 1em;
+}
+
+/* nav bar, sidebar */
+.nav-item {
+  color: #495E57;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-bar .nav-item:hover{
+  opacity: 0.6;
+}
+
+/* main */
+main .title_restaurant {
+  color: #F4CE14;
+  font-size: 40pt;
+  font-family: 'Markazi Text';
+}
+
+main .subtitle_location {
+  color: #FFFFFF;
+  font-size: 26pt;
+  font-family: 'Markazi Text';
+}
+
+main .description_restaurant {
+  color: #FFFFFF;
+  font-size: 13pt;
+  font-family: 'Karla';
+}
+
+.restaurantfoodimage {
+  width: 150px;
+  height: 250px;
+  border-radius: 25px;
+}
+
+/* section */
+.section_title {
+  font-size: 26pt;
+  font-family: 'Karla';
+  font-weight: bold;
+}
+
+/* footer */
+footer h3 {
+  font-weight: bold;
+}
+
+footer .nav-item {
+  color: #000000;
+  text-decoration: none;
+  font-size: small;
+  font-weight: normal;
+}
+
+footer p {
+  font-size: small;
+}
+
+/* sidebar */
+.bm-burger-button {
+  position: relative;
+  left: 2em;
+  width: 36px;
+  height: 30px;
+}
+
+.bm-burger-bars {
+  background: #495E57;
+}
+
+.bm-cross-button {
+  width: 24px;
+  height: 24px;
+}
+
+.bm-cross {
+  background: #FFFFFF;
+}
+
+.bm-menu-wrap {
+  position: fixed;
+  height: 100vh;
+  top: 0;
+}
+
+.bm-menu {
+  background: #495E57;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+.bm-item-list {
+  padding: 0.8em;
+}
+
+.bm-item {
+  color: #FFFFFF;
+  margin-bottom: 50px;
+}
+
+.bm-item:hover {
+  opacity: 0.6;
+}
+
+.bm-overlay {
+  top: 0;
+}
+
+/* special carousel */
+.special_carousel .carousel .slide img {
+  max-width: 300%;
+  width: 300%;
+}
+
+/* reservation */
+.reservationForm {
+  display: flex;
+  flex: 1;
+  height: 650px;
+  justify-content: center;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  width: 325px;
+  padding: 25px;
+}
+
+.field {
+  position: relative;
+  padding-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+input, select {
+  height: 50px;
+}
+
+label {
+  color: #FFFFFF;
+  padding-bottom: 5px;
+}
+
+#date, #time, #guests, #occasion {
+  padding-left: 10px;
+}
+
+.subtitle_reservation {
+  color: #FFFFFF;
+  font-size: 26pt;
+  font-family: 'Markazi Text';
+}
